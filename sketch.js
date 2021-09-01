@@ -10,7 +10,6 @@ var computer, computerBase;
 
 //Declare an array for arrows playerArrows = [ ]
 var playerArrows = [];
-var computerArrows = []
 var arrow;
 
 
@@ -78,13 +77,7 @@ function draw() {
  // Use for loop to display arrow using showArrow() function
  for (var i = 0; i < playerArrows.length; i++) {
   showArrows(i, playerArrows);
-}
-
-for (var i = 0; i < computerArrows.length; i++) {
-  showArrows(i, computerArrows);
-}
-
-
+ }
 
 
 }
